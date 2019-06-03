@@ -1,0 +1,10 @@
+<html>
+<body>
+<script type="text/javascript">
+no=Math.random()*10
+document.write(Math.floor(no))
+Math.propName = propValue;
+Math.methodName = methodRef;
+</script>
+</body>
+</html>
