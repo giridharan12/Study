@@ -1,0 +1,14 @@
+
+var x = new Boolean(false);
+if (x) {
+  x =2;
+}
+var buffer = new ArrayBuffer(32);
+var view1 = new DataView(buffer);
+var view2 = new DataView(buffer,10,4); 
+view1.setInt8(10, 24);
+console.log(view2.getInt8(0));
+var date1 = new Date('june 3, 2000 11:55:00');
+var date2 = new Date('2000-6-3T11:55:00');
+console.log(date1 === date2);
+console.log(date1 - date2);
