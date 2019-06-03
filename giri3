@@ -5,6 +5,10 @@ no=Math.random()*10
 document.write(Math.floor(no))
 Math.propName = propValue;
 Math.methodName = methodRef;
+var str=("Hello JavaScripters!")
+document.write(str.toLowerCase())
+document.write("<br>")
+document.write(str.toUpperCase())
 </script>
 </body>
 </html>
