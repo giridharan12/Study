@@ -1,0 +1,16 @@
+function counter()
+ {
+  for (var count = 3; ; count++)
+  { 
+    console.log(count + 'A'); 
+    if (count === 15) 
+      {          
+        return;
+      }
+      console.log(count + 'B'); 
+    }
+  console.log(count + 'C'); 
+}
+
+counter();
+
