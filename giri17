@@ -1,0 +1,12 @@
+class StaticMethodCall 
+{
+  static staticMethod() 
+  {
+    return 'Static method has been called';
+  }
+  static anotherStaticMethod()
+   {
+    return this.staticMethod() + ' from another static method';
+  }
+}
+StaticMethodCall.staticMethod();
