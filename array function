@@ -1,0 +1,26 @@
+var food = [
+  'apple',
+  'orange',
+  'mango',
+  'banana'
+];
+console.log(food.map(food => food.length));
+<html> 
+<body> 
+<script> 
+	let People = function(person, age) 
+  { 
+		this.person = person; 
+		this.age = age; 
+		this.info = function() 
+    { 
+			document.write(this); 
+			document.write(this.person + " is " + this.age 	+ " years old"); 
+		} 
+	} 
+let person1 = new People('John', 21); 
+</script>					 
+</body> 
+</html> 
+
+
